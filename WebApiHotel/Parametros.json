@@ -1,0 +1,10 @@
+{
+  "TopeMinTipo": 10,
+  "TopeMaxTipo": 200,
+  "TopeMinDscCabania": 10,
+  "TopeMaxDscCabania": 500,
+  "TopeMinDscMantenimiento": 10,
+  "TopeMaxDscMantenimiento": 200
+
+
+}

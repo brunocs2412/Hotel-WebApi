@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="CasosDeUso\CUCabaniaConSusMantenimientos.cs" />
+    <Compile Remove="CasosDeUso\CUFotoAlta.cs" />
+    <Compile Remove="CasosDeUso\CUMantenimientoListar.cs" />
+    <Compile Remove="InterfacesCasosDeUso\ICUCabaniaConSusMantenimientos.cs" />
+    <Compile Remove="InterfacesCasosDeUso\ICUFotoAlta.cs" />
+    <Compile Remove="InterfacesCasosDeUso\ICUMantenimientoListar.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DTOs\DTOs.csproj" />
+    <ProjectReference Include="..\LogicaAccesoDatos\LogicaAccesoDatos.csproj" />
+    <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
+  </ItemGroup>
+
+</Project>
